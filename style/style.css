@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared items */
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+
+
+.text-gradient {
+    background: linear-gradient(rgba(249, 72, 178, 1.00), rgba(135, 88, 241, 1.00));
+    /* Define the gradient colors */
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.nav-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.219);
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.nav-left span {
+    color: rgb(255, 0, 200);
+}
+
+.nav-left p {
+    margin-left: 0.8rem;
+}
+
+.nav-right {
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.nav-right button {
+    background-color: transparent;
+    border: none;
+}
+
+.nav-right .follow-btn {
+    display: flex;
+    background-color: rgba(180, 177, 177, 0.384);
+    border-radius: 0.8rem;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1rem;
+
+}
+
+.follow-btn i {
+    font-size: 1.2rem;
+}
+
+
+/* banner secation start */
+.background {
+    background: rgba(30, 30, 30, 0.034);
+
+}
+
+.banner-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-left {
+    width: 50%;
+    background-image: url(../images/Group14.png);
+}
+
+.banner-left h1 {
+    font-size: 2.5rem;
+}
+
+.banner-left p {
+    line-height: 2rem;
+}
+
+.banner-left i {
+    color: rgba(249, 72, 178, 1.00);
+    margin-right: 0.5rem;
+}
+
+.banner-left .goat {
+    font-size: 4rem;
+    font-weight: bolder;
+    background: linear-gradient(rgba(249, 72, 178, 1.00), rgba(135, 88, 241, 1.00));
+    /* Define the gradient colors */
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.banner-left button {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.banner-right img {
+    width: 100%;
+}
+
+/* online game section start */
+
+
+.online-game-context {
+    max-width: 655px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.online-game-context h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.game-card-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.game-card img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.game-card {
+    position: relative;
+}
+
+.watch-now {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    display: none;
+}
+
+.game-card img:hover+.watch-now {
+    display: block;
+}
+
+.game-card img:hover {
+    filter: brightness(50%);
+}
+
+/* play instantly section start */
+
+.instantly-container {
+    max-width: 1000px;
+    margin: 5rem auto 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instantly-left h1 {
+    font-size: 2.5rem;
+}
+
+.instantly-left p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.instantly-left {
+    width: 40%;
+}
+
+
+.instantly-right {
+    width: 40%;
+    position: relative;
+
+}
+
+.instantly-right img {
+    width: 100%;
+
+
+}
+
+.instantly-right .cat {
+    width: 45%;
+    position: absolute;
+    bottom: -10%;
+    left: -25%;
+}
+
+/* careers section start */
+
+.carreers-container{
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    padding: 100px 450px;
+    color: white;
+    display: flex;
+    line-height: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.h3-flex{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.careers-left{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.careers-left h1{
+   margin-bottom: 1rem;
+}
+
+.careers-btn{
+    width: 13rem;
+    border: none;
+    height: 2.5rem;
+    border-radius: 48px;
+    color: rgb(255, 1, 200);
+    margin-top: 2rem;
+
+}
+
+.careers-right{
+    width: 50%;
+}
+
+.careers-right img{
+    width: 100%;
+}
+
+/* catagory section */
+
+
+/* .catagory-cotainer{
+        max-width: 1000px;
+        border: 2px solid red;
+        margin: 0 auto;
+        display: flex;
+    } */
+
+.catagory-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+
+.catagory-cotainer {
+    width: 243px;
+    height: 80px;
+  
+}
+
+.catagory-card {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    min-width: 180px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.catagory-card:hover {
+    outline: 2px solid rgb(183, 8, 199);
+}
+
+
+.catagory-card img {
+    width: 50px;
+    height: 50px;
+}
+
+/* footer section start */
+
+footer{
+    background: rgb(11, 2, 35);
+    color: white;
+    margin-top: 4rem;
+    padding: 4rem 0;
+}
+
+.footer-logo{
+    max-width: 210px;
+  margin: 0 auto;
+}
+
+.footer-context{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer-media{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+    font-size: 3rem;
+
+}
+
+.copyrights{
+    text-align: center;
+    margin-top: 2rem;
+    opacity: 0.7;
+}

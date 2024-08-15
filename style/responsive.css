@@ -1,0 +1,123 @@
+
+@media screen and (max-width: 576px){
+.nav-main, .nav-right{
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.nav-right{
+    margin-top: 1.5rem;
+}
+
+.nav-shadow{
+    box-shadow: none ;
+}
+
+.banner-container{
+    flex-direction: column-reverse;
+}
+
+.banner-left{
+    padding: 1rem; 
+   
+}
+
+.banner-left, .banner-right{
+    width: 80%;  
+}
+
+/* online game section start */
+
+.online-game-context{
+    width: 80%;
+}
+
+.game-card-container{
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+   
+}
+
+.watch-now{
+    top: 40%;
+    left: 40%;
+    font-size: 1.5rem;
+}
+
+/* play instantly */
+
+.instantly-container{
+    width: 80%;
+    flex-direction: column;  
+}
+
+.instantly-left {
+    width: 100%;
+    text-align: center;
+}
+
+.instantly-right{
+    width: 70%;
+    position: relative;
+    margin-top: 2rem;
+
+}
+
+/* careers */
+
+
+.carreers-container{
+    flex-direction: column;
+    padding: 50px 40px;
+}
+
+.careers-left{
+    width: 100%;
+}
+
+.careers-left p{
+   font-size: 0.8rem;
+    
+}
+
+.h3-flex{
+   font-size: 0.6rem;
+}
+
+.careers-right{
+    width: 100%;
+    margin-top: 3rem;
+}
+
+
+
+/* catagory */
+.catagory-card {
+    font-size: 9px;
+    min-width: 50px;
+}
+.catagory-card img {
+    width: 30px;
+    height: 30px;
+}
+
+/* footer */
+footer{
+    padding: 4rem 2rem;
+}
+
+.footer-context{
+    gap: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: 2rem;
+}
+
+.footer-media{
+    gap: 1.5rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+
+
+}
